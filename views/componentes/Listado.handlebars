@@ -1,0 +1,6 @@
+<h1>{{pacientes.titulo}}</h1>
+<ul>
+  {{#each pacientes.lista}}
+    <li>Nombre: {{this.nombre}} - Apellido: {{this.apellido}} - ID: {{this.id}} - Timestamp: {{this.timestamp}}</li>
+  {{/each}}
+</ul>
